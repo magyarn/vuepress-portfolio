@@ -8,8 +8,7 @@ module.exports = {
         {text: 'Michigan Online', link: '/michigan-online/'},
         {text: 'Viewpoint', link: '/viewpoint/'}
       ]},
-      { text: 'About', link: '/about/' },
-      { text: 'Contact', link: '/contact/' }
+      { text: 'About', link: '/about/' }
     ]
   }
 }
