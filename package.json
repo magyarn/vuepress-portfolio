@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vuepress-portfolio:dev": "vuepress dev vuepress-portfolio",
-    "vuepress-portfolio:build": "vuepress build vuepress-portfolio"
+    "vuepress-portfolio:dev": "vuepress dev",
+    "vuepress-portfolio:build": "vuepress build"
     },
     "keywords": [],
     "author": "",
