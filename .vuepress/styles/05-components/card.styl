@@ -1,0 +1,88 @@
+.card
+  width: 100%
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+  border-radius: 5px
+  border: #FAFAFA
+
+.card--horizontal
+  display: flex
+  align-items: flex-start
+  margin-bottom: 1rem
+  min-height: 250px
+  @media $md
+    flex-direction: column
+    max-width: 80vw
+    margin: 2rem auto
+  @media $sm
+    flex-direction: column
+    max-width: 80vw
+    margin: 2rem auto
+
+
+.card__image
+  display: block
+  min-height: 250px
+  height: 100%
+  flex: 0 0 250px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  border-radius: 5px 0 0 5px
+  @media $md
+    min-height: 150px
+    flex: 0 0 150px
+    width: 100%
+    border-radius: 5px 5px 0 0
+  @media $sm
+    min-height: 150px
+    flex: 0 0 150px
+    width: 100%
+    border-radius: 5px 5px 0 0
+
+.card__image.michigan-online
+  background-image: url('../../img/mo-logo.png')
+
+.card__image.sleep-tracker
+  background-image: url('../../img/sleep-tracker-logo.png')
+
+.card__image.gallery-tool
+  background-image: url('../../img/gallery-tool-logo.png')
+
+.card__body
+  padding: 1rem
+
+.card__title
+  margin-top: 0
+
+.card__tag-list
+  display: flex
+  list-style: none
+  align-items: center
+  padding-left: 0
+  margin: 0
+  @media $md
+    flex-wrap: wrap
+  @media $sm
+    flex-wrap: wrap
+
+.card-tag
+  background: $charcoal-light
+  border-radius: 2px
+  color: $charcoal
+  font-weight: bold
+  font-size: 12px
+  font-style: uppercase
+  margin: 0 .25rem
+  padding: 0 .5rem
+  white-space: nowrap
+  @media $md
+    margin: .25rem
+  @media $sm
+    margin: .25rem
+
+.card-tag:first-of-type
+  margin-left: 0
+  @media $md
+    margin-left: .25rem
+  @media $sm
+    margin-left: .25rem

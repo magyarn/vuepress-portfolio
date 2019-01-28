@@ -1,12 +1,12 @@
 module.exports = {
-  title: "Nathan Magyar",
+  title: "NM",
   themeConfig: {
     nav: [
       { text: 'Home', link: '/'},
       { text: 'My Work', items: [
-        {text: 'Gallery Tool', link: '/gallery-tool/'},
         {text: 'Michigan Online', link: '/michigan-online/'},
-        {text: 'Viewpoint', link: '/viewpoint/'}
+        {text: 'Gallery Tool', link: '/gallery-tool/'},
+        {text: 'Sleep Tracker', link: '/sleep-tracker/'}
       ]},
       { text: 'About', link: '/about/' }
     ]

@@ -1,5 +1,4 @@
 ---
   title: Nathan Magyar - About
+  layout: AboutMe
 ---
-
-# About Me
