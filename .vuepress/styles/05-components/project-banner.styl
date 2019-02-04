@@ -1,0 +1,81 @@
+.project-feature-img
+    margin: 5rem auto
+    max-width: 700px
+    @media $md
+        margin: 2rem auto
+    @media $sm
+        margin: 1rem auto 3rem
+
+.project-logo
+    max-width: 700px
+    margin: 5rem auto 0
+    @media $md
+        margin: 2rem auto
+    @media $sm
+        margin: 0rem auto 1.5rem
+
+.project-banner
+    margin: 5rem auto
+    @media $md
+        margin: 2rem auto
+    @media $sm
+        margin: 1.5rem auto
+
+.project-tagline
+    font-size: 2rem
+    text-align: center
+    margin-bottom: 7rem
+    @media $md
+        font-size: 1.5rem
+    @media $sm
+        font-size: 1.2rem
+
+.project-background__img
+    margin: 5rem 0
+    @media $md
+        margin: 2rem auto
+    @media $sm
+        margin: 1.5rem auto
+
+.project-key-feature-list
+    list-style: none
+    padding-left: 0
+    margin: 0
+
+.project-key-feature-list__item
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    margin-bottom: 5rem
+    p
+        margin: 0
+    img 
+        max-width: 50% !important
+        margin-left: 2rem
+        @media $md
+            margin: 0 auto
+        @media $sm
+            margin: 2rem auto 0rem
+    &:nth-of-type(even)
+        flex-direction: row-reverse
+        img 
+            margin-left: 0
+            margin-right: 2rem
+            @media $md
+                margin: 0 auto
+            @media $sm
+                margin: 2rem auto 0rem
+        @media $md
+            flex-direction: column
+        @media $sm
+            flex-direction: column
+            margin: 2rem auto
+    @media $md
+        flex-direction: column
+        p
+            margin-bottom: 1rem
+     @media $sm
+        flex-direction: column
+        margin: 2rem auto
+        p
+            margin-bottom: 1rem
