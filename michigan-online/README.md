@@ -1,11 +1,9 @@
 ---
+  pageClass: project-page
   title: Michigan Online
-  description: "Michigan Online is a gateway that connects users to over 100
-  online learning experiences produced by the University of Michigan Office of
-  Academic Innovation."
-  featureImage: "mo-feature.png"
+  description: "Your destination for online learning opportunities created by the University of Michigan"
+  slug: "michigan-online"
+  tags: ["About", "UX Design", "Vue JS", "Django", "Graphic Design", "UX Research"]
 ---
 
-<ProjectPage :project="$page.frontmatter"/>
-
-[Content Archive](./content-archive.md)
+<ProjectPage :project="$page.frontmatter" />

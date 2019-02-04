@@ -1,6 +1,7 @@
 module.exports = {
   title: "NM",
   themeConfig: {
+    search: false,
     nav: [
       { text: 'Home', link: '/'},
       { text: 'My Work', items: [
