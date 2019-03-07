@@ -33,7 +33,7 @@
             This site connects online learners to over 130 learning opportunities
              created by the University of Michigan.
           </p>
-          <a href="">View project</a>
+          <router-link to="michigan-online/">View project</router-link>
         </div>
       </article>
       <article class="card card--horizontal">
@@ -48,7 +48,7 @@
             Learners upload assignments for peer feedback. Instructors can
             customize the interface to meet their course/assignment's needs.
           </p>
-          <a href="">View project</a>
+          <router-link to="gallery-tool/">View project</router-link>
         </div>
       </article>
       <article class="card card--horizontal">
