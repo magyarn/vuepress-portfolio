@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{227:function(t,e,n){"use strict";n.r(e);var i=n(0),s=Object(i.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("ArticlePage",{attrs:{article:this.$page.frontmatter}})],1)},[],!1,null,null,null);s.options.__file="working-with-vuejs.md";e.default=s.exports}}]);
