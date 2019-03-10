@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{243:function(t,e,c){"use strict";c.r(e);var s=c(0),i=Object(s.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("ArticlePage",{attrs:{article:this.$page.frontmatter}})],1)},[],!1,null,null,null);i.options.__file="choices-choices-choices.md";e.default=i.exports}}]);
