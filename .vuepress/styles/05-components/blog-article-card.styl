@@ -1,0 +1,44 @@
+.blog-articles
+  list-style: none
+  margin: 0
+  padding-left: 0
+
+.blog-article-card
+  border-radius: $card-radius
+  box-shadow: $box-shadow
+  margin-bottom: 2rem
+
+.blog-article-card__link
+  display: flex
+  align-items: flex-start
+
+.blog-article-card__image
+  display: block
+  min-height: 124px
+  height: 100%
+  min-width: 124px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  border-radius: $card-radius 0 0 $card-radius
+  @media $md-and-smaller
+    min-height: 80px
+    min-width: 80px
+    border-radius: $card-radius
+    margin: 1rem 0 0 1rem
+
+.blog-article-card__info
+  padding: 1rem
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 100%
+
+.blog-article-card__title,
+.blog-article-card__description,
+.blog-article-card__date
+  margin: 0 0 .5rem
+
+.blog-article-card__description,
+.blog-article-card__date
+  font-size: .8rem

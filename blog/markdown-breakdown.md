@@ -2,8 +2,13 @@
   title: Markdown Cheatsheet
 ---
 
+[Blog](/blog/ "Blog") / February 27, 2019
+
 # Markdown Cheatsheet
 
+While putting together this portfolio, which uses a combination of Markdown
+and Vue, I thought it would be useful to create a cheatsheet of sorts to 
+help me remember the basic syntax. Below is the result of that work:
 
 ## Headers
 ```md

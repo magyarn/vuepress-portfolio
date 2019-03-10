@@ -9,6 +9,7 @@ module.exports = {
         {text: 'Gallery Tool', link: '/gallery-tool/'},
         {text: 'Sleep Tracker', link: '/sleep-tracker/'}
       ]},
+      { text: 'Blog', link: '/blog/' },
       { text: 'About', link: '/about/' }
     ]
   }
