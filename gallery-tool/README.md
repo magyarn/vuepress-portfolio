@@ -1,5 +1,7 @@
 ---
   pageClass: project-page
+  prev: false
+  next: false
   title: Gallery Tool
   description: Share your work. Get feedback. Do the same for others.
   slug: "gallery-tool"
