@@ -25,10 +25,10 @@
         <p>{{role.description}}</p>
         <ul class="project-article-list">
           <li v-for="article in role.articles" :key="article.title" class="project-article-list__item">
-            <router-link :to="article.path">
+            <router-link :to="article.path" class="project-article-list__item__link">
               <div>
-                  <h4 class="project-article-title">{{article.title}}</h4>
-                  <p class="project-article-tagline">{{article.subtitle}}</p>
+                  <h4 class="project-article-list__item-title">{{article.title}}</h4>
+                  <p class="project-article-list__item-tagline">{{article.subtitle}}</p>
               </div>
               <span>View</span>
             </router-link>
@@ -40,13 +40,9 @@
 </template>
 
 <script>
-import MyFooter from './MyFooter.vue'
 
   export default {
     props: ['project'],
-    components: {
-      MyFooter
-    }
   }
 </script>
 
