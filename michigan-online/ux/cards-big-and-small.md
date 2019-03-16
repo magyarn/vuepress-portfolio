@@ -1,7 +1,7 @@
 ---
   pageClass: project-page
-  title: Intuitive Information Architecture
-  tagline: Discovering the Ideal Content Structure
+  title: Cards Big and Small
+  tagline: Creating Better Distinction Between Content Types
   role: UX
   projectName: Michigan Online
   projectSlug: michigan-online

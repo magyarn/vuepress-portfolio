@@ -12,24 +12,18 @@
   roles: [
     {
       title: "UX Designer",
-      description: "As the lead UX Designer for the project since it began in 2018, I have helped tackle some of its biggest challenges, including: 2 redesigns, specific feature improvements, 
-          and general information architecture.",
+      description: "As the lead UX Designer for the project since it began in 2018, I have helped tackle some of its biggest challenges, including: content differentiation, specific feature improvements, and general information architecture.",
       articles: [
         {
-          title: "Before and After, and After After",
-          subtitle: "The Story of a Double Redesign",
-          path: "./ux/before-and-after-and-after-after.html"
+          title: "Cards Big and Small",
+          subtitle: "Creating Better Distinction Between Content Types",
+          path: "./ux/cards-big-and-small.html"
         },
         {
           title: "Where's My Free Stuff?",
           subtitle: "A Lesson in Simplicity",
           path: "./ux/wheres-my-free-stuff.html"
         },
-        {
-          title: "Intuitive Information Architecture",
-          subtitle: "Discovering the Ideal Content Structure",
-          path: "./ux/intuitive-information-architecture.html"
-        }
       ]
     },
     {
@@ -40,11 +34,6 @@
           title: "My Journey with Django",
           subtitle: "Top Takeaways After 1 Year as a Developer",
           path: "./frontend-developer/my-journey-with-django.html"
-        },
-        {
-          title: "Getting CSS Under Control",
-          subtitle: "My Ideal File Structure",
-          path: "./frontend-developer/getting-css-under-control.html"
         },
         {
           title: "Working with Vue JS",
@@ -75,23 +64,14 @@
       description: "While I am most passtionate about design and frontend development, I am a strong advocate for informing my work based on good user research. I have done so by performing comparative analyses, conducting surveys, and facilitating usability tests.",
       articles: [
         {
-          title: "Sizing Up the Competition",
-          subtitle: "Comparative Analysis Observations",
-          path: "./ux-researcher/sizing-up-the-competition.html"
+          title: "Sorting Out Subject Pages",
+          subtitle: "How Card Sorting Clarified Our Information Architecture",
+          path: "./ux-researcher/sorting-out-subjects.html"
         },
-        {
-          title: "And the Winner Is...",
-          subtitle: "Using Surveys to Inform Design",
-          path: "./ux-researcher/and-the-winner-is.html"
-        },
-        {
-          title: "What Are You Thinking?",
-          subtitle: "Stories from Usability Testing",
-          path: "./ux-researcher/what-are-you-thinking.html"
-        }
       ]
     }
   ]
 ---
 
 <ProjectPage :project="$page.frontmatter" />
+<my-footer />
