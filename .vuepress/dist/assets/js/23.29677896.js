@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{261:function(t,e,n){"use strict";n.r(e);var a=n(0),s=Object(a.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("ArticlePage",{attrs:{article:this.$page.frontmatter}})],1)},[],!1,null,null,null);s.options.__file="cards-big-and-small.md";e.default=s.exports}}]);
