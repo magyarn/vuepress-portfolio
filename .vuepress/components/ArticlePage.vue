@@ -6,7 +6,7 @@
       <p class="project-article-tagline">{{ article.tagline }}</p>
     </header>
     <section v-for="(section, index) in article.sections" :key="`section-${index}`" class="project-article-section content custom">
-      <h2 v-if="section.title">{{section.title}}</h2>
+      <h2 v-if="section.title" id="section.title">{{section.title}}</h2>
       <img v-if="section.image" class="margin-2-auto" :class="imageClass(section)" :src="require(`../../img/${section.image}`)" :alt="section.imageAlt">
       <div v-if="section.paragraphs">
         <p v-for="(paragraph, index) in section.paragraphs" :key="`p-${index}`">{{paragraph}}</p>

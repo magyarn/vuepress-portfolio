@@ -1,7 +1,25 @@
 ---
   pageClass: content custom
+  prev: false
+  next: false
   title: Blog
   articles: [
+    {
+      type: "external",
+      title: "Build an Online Store with Vue CLI — Part 8 ↗️",
+      description: "Hosting your prototype with Github and Netlify",
+      date: "March 15, 2019",
+      link: ".https://medium.com/@magyarn/building-an-online-store-with-vue-cli-part-8-9bb6f2ca9978",
+      featuredImage: "building-an-online-store-with-vue-part-8"
+    },
+    {
+      type: "external",
+      title: "Build an Online Store with Vue CLI — Part 7 ↗️",
+      description: "Creating a random outfit recommender",
+      date: "March 15, 2019",
+      link: "https://medium.com/@magyarn/building-an-online-store-with-vue-cli-part-7-8e7c84172e19",
+      featuredImage: "building-an-online-store-with-vue-part-7"
+    },
     {
       type: "internal",
       title: "Markdown Breakdown",
