@@ -1,5 +1,7 @@
 ---
   pageClass: project-page
+  prev: false
+  next: false
   title: Michigan Online
   description: "Your destination for online learning opportunities created by the University of Michigan"
   slug: "michigan-online"

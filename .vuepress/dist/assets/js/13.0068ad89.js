@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{237:function(t,e,n){"use strict";n.r(e);var s=n(0),a=Object(s.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("ProjectPage",{attrs:{project:this.$page.frontmatter}})],1)},[],!1,null,null,null);a.options.__file="README.md";e.default=a.exports}}]);

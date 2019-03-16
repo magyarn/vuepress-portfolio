@@ -1,5 +1,7 @@
 ---
   pageClass: project-page
+  prev: '../an-illustrative-touch.html'
+  next: false
   title: Sorting Out Subjects
   tagline: How Card Sorting Clarified Our Information Architecture
   role: UX Researcher

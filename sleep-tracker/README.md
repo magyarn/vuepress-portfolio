@@ -1,5 +1,7 @@
 ---
   pageClass: project-page
+  prev: false
+  next: false
   title: Sleep Tracker
   description: Track your sleep habits to become healthier and more well-rested.
   slug: sleep-tracker
